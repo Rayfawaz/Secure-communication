@@ -1,4 +1,4 @@
-### Secure Communication Channel Using RSA Encryption with GUI and Socket Communication
+### Secure Communication Channel Using RSA Encryption
 
 In this project, I developed a secure communication channel between a client and a server using RSA encryption for message encryption and decryption. The project was implemented with Python, utilizing the Tkinter library for a graphical user interface (GUI) and socket programming for communication between the client and the server. The server automatically received encrypted messages from the client, but the decryption was performed manually by clicking a "Decrypt" button.
 
