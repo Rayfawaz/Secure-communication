@@ -33,10 +33,11 @@ To run this project from a GitHub repository, follow these steps:
    -  Ensure that Python and the required libraries (Tkinter and PyCryptodome) are installed. On Kali Linux, Install the dependencies using:
 
    _sudo apt-get install python3-tk_
+   
    _pip install pycryptodome_
   
 
-3. **Running the Server**:
+4. **Running the Server**:
    - After navigating to the project directory, start the server by running the `server-crypto.py` script in one terminal:
 
    _python3 server-crypto.py_
@@ -44,7 +45,7 @@ To run this project from a GitHub repository, follow these steps:
 
    This opens the server’s GUI and starts listening for messages.
 
-4. **Running the Client**:
+5. **Running the Client**:
    - In a separate terminal, run the client by executing the `client-crypto.py` script:
 
    _python3 client-crypto.py_
@@ -52,7 +53,7 @@ To run this project from a GitHub repository, follow these steps:
 
    This opens the client’s GUI where you can enter a message, encrypt it using the server’s public key, and send it to the server.
 
-5. **Communication and Decryption**:
+6. **Communication and Decryption**:
    - The client sends the encrypted message to the server over a socket connection. The server receives the message automatically and displays a status update in the GUI. You then clicked the "Decrypt" button on the server GUI to manually decrypt and display the original message.
 
 This project demonstrated the fundamentals of secure communication using RSA encryption, with socket-based communication and a user-friendly GUI for interaction.
