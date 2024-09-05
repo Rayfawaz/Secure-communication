@@ -26,28 +26,28 @@ To run this project from a GitHub repository, follow these steps:
 1. **Cloning the Repository**:
    - First, Clone the repository containing the server and client code using the following command:
    
-   - git clone 
+    _git clone https://github.com/Rayfawaz/Secure-communication.git_
    
 
 2. **Installing Dependencies**:
    -  Ensure that Python and the required libraries (Tkinter and PyCryptodome) are installed. On Kali Linux, Install the dependencies using:
 
-   sudo apt-get install python3-tk
-   pip install pycryptodome
+   _sudo apt-get install python3-tk_
+   _pip install pycryptodome_
   
 
 3. **Running the Server**:
    - After navigating to the project directory, start the server by running the `server-crypto.py` script in one terminal:
 
-   python3 server-crypto.py
+   _python3 server-crypto.py_
   
 
    This opens the server’s GUI and starts listening for messages.
 
 4. **Running the Client**:
-   - In a separate terminal, run the client by executing the `client.py` script:
+   - In a separate terminal, run the client by executing the `client-crypto.py` script:
 
-   python3 client-crypto.py
+   _python3 client-crypto.py_
   
 
    This opens the client’s GUI where you can enter a message, encrypt it using the server’s public key, and send it to the server.
