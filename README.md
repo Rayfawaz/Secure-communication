@@ -19,9 +19,9 @@ In this project, I developed a secure communication channel between a client and
    - The client and server both has basic GUIs built with Tkinter.
    - The GUIs were defined with specific dimensions (400x300 pixels) for simplicity and clarity.
    
-#### Running the Program from a GitHub Repository
+#### Running the Program
 
-To run this project from a GitHub repository, follow these steps:
+To run this project, clone it from my GitHub repository and follow these steps:
 
 1. **Cloning the Repository**:
    - First, Clone the repository containing the server and client code using the following command:
